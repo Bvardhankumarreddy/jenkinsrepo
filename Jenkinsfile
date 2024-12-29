@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage{
+        stage('Github Webhook'){
             steps{
                 sh 'echo "Build Completed"'
             }     
