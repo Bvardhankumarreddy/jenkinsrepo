@@ -5,6 +5,7 @@ pipeline{
             steps{
                 sh 'echo "Build Completed"'
                 sh 'echo "Triggring the Jenkins Job"'
+                sh 'echo "Sechduled the Polling SCM"'
             }     
         }   
     }
